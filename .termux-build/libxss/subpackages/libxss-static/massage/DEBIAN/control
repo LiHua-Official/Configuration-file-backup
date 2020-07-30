@@ -1,0 +1,8 @@
+Package: libxss-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.2.3-12
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.3-12)
+Description: Static libraries for libxss

@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+ 
+Name: PresentProto
+Description: Present extension headers
+Version: 1.2
+Cflags: -I${includedir}

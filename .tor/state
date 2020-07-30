@@ -1,0 +1,75 @@
+# Tor state file last generated on 2020-07-27 22:33:57 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+CircuitBuildTimeBin 2225 1
+CircuitBuildTimeBin 2275 1
+CircuitBuildTimeBin 2725 1
+CircuitBuildTimeBin 2975 1
+CircuitBuildTimeBin 5825 1
+CircuitBuildTimeBin 6025 1
+CircuitBuildTimeBin 6075 1
+CircuitBuildTimeBin 6375 1
+CircuitBuildTimeBin 7375 1
+CircuitBuildTimeBin 7425 1
+CircuitBuildTimeBin 8925 1
+CircuitBuildTimeBin 9175 1
+CircuitBuildTimeBin 9575 1
+CircuitBuildTimeBin 9825 1
+CircuitBuildTimeBin 10275 1
+CircuitBuildTimeBin 10575 1
+CircuitBuildTimeBin 10625 1
+CircuitBuildTimeBin 10925 1
+CircuitBuildTimeBin 11025 1
+CircuitBuildTimeBin 11175 1
+CircuitBuildTimeBin 11325 1
+CircuitBuildTimeBin 11525 1
+CircuitBuildTimeBin 12425 1
+CircuitBuildTimeBin 13275 1
+CircuitBuildTimeBin 13575 1
+CircuitBuildTimeBin 13975 1
+CircuitBuildTimeBin 14325 1
+CircuitBuildTimeBin 14425 1
+CircuitBuildTimeBin 15075 1
+CircuitBuildTimeBin 15525 1
+CircuitBuildTimeBin 16275 1
+CircuitBuildTimeBin 16475 1
+CircuitBuildTimeBin 17675 1
+CircuitBuildTimeBin 19575 1
+CircuitBuildTimeBin 28725 1
+CircuitBuildTimeBin 30775 1
+CircuitBuildTimeBin 31775 1
+CircuitBuildTimeBin 45125 1
+Dormant 0
+Guard in=default rsa_id=D7230F4F13324A28C308AF94E2385D0A7F1B05F9 nickname=FalkensteinTor01 sampled_on=2020-07-17T16:59:13 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-16T11:13:29 confirmed_idx=1 pb_use_attempts=4.000000 pb_use_successes=4.000000 pb_circ_attempts=65.000000 pb_circ_successes=62.000000 pb_successful_circuits_closed=62.000000 pb_timeouts=14.000000
+Guard in=default rsa_id=32C1100B5EF19A5BFBB431E8D42781C2D09D31C3 nickname=BahnhufPowah sampled_on=2020-07-17T02:49:44 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-17T11:50:25 confirmed_idx=2 pb_timeouts=2.000000
+Guard in=default rsa_id=5DE37A3371AAE7638748EB43C9F1CE66E09D4470 nickname=niftylinkrat sampled_on=2020-07-10T15:16:17 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-17T01:47:19 confirmed_idx=3 pb_circ_attempts=1.000000 pb_circ_successes=1.000000 pb_collapsed_circuits=1.000000 pb_timeouts=1.000000
+Guard in=default rsa_id=1D361A2F1CAE4FDD5A85E13C168BE7075A100524 nickname=ButaryEntry1 sampled_on=2020-07-09T03:40:57 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-23T01:07:45 confirmed_idx=8 pb_circ_attempts=1.000000 pb_circ_successes=1.000000 pb_successful_circuits_closed=1.000000 pb_timeouts=1.000000
+Guard in=default rsa_id=72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE nickname=TykRelay01 sampled_on=2020-07-12T10:42:17 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=56927E61B51E6F363FB55498150A6DDFCF7077F2 nickname=Akka sampled_on=2020-07-17T15:48:46 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-26T22:47:57 confirmed_idx=6 pb_circ_attempts=20.000000 pb_circ_successes=20.000000 pb_successful_circuits_closed=20.000000 pb_timeouts=20.000000
+Guard in=default rsa_id=2F644DDEF8BAA31BA0240E6C6D36665D90DA57C9 nickname=antoniou sampled_on=2020-07-11T22:55:10 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=85A3AC041E3FCD796AF5D653953D5E27A56E3719 nickname=niftycongogerbil sampled_on=2020-07-16T20:06:00 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=C239952D0C8E4EABC3E6B0A8E0B623689174E3C6 nickname=FroggiePeppie sampled_on=2020-07-14T05:13:11 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-16T22:53:57 confirmed_idx=10
+Guard in=default rsa_id=DD0C8EEC5CA402A9FA4478F10C31A440F71F6885 nickname=chaosDelroth sampled_on=2020-07-09T21:21:22 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=D7D905184504739AA790FFF32DF882CD5D34CF69 nickname=bauruine55 sampled_on=2020-07-09T13:23:41 sampled_by=0.4.3.5 unlisted_since=2020-07-27T07:45:02 listed=0
+Guard in=default rsa_id=EF4D8571D6569C67A3E97B356CBBEBC19473B34F nickname=peql293884 sampled_on=2020-07-07T01:27:29 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=672A56A583C658372E63ACEB43E7F791C2819548 nickname=recklessbolter sampled_on=2020-07-15T01:02:51 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=C395592F1D779E6775806AFFAD66199E3972DAA2 nickname=xonu02 sampled_on=2020-07-09T18:41:03 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-12T13:29:02 confirmed_idx=0 pb_use_attempts=30.000000 pb_use_successes=26.000000 pb_circ_attempts=117.000000 pb_circ_successes=114.000000 pb_successful_circuits_closed=110.000000 pb_unusable_circuits=4.000000 pb_timeouts=15.000000
+Guard in=default rsa_id=BF5C0C5D3A1C6654FEBA5FF66B00734DF073DB50 nickname=Unnamed sampled_on=2020-07-10T17:14:06 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=CA4E9DFE87DE87E502F3B503D07EC8EFCAEE2549 nickname=1blupowered2 sampled_on=2020-07-07T13:54:14 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-20T20:01:50 confirmed_idx=4
+Guard in=default rsa_id=3BAACE149DB31574B327BF835B594B707D12CD58 nickname=TORque sampled_on=2020-07-17T14:19:32 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-16T22:53:40 confirmed_idx=5
+Guard in=default rsa_id=44BD70C13DAA7513D6F47773804178B009F21ED5 nickname=Xavier sampled_on=2020-07-12T20:11:06 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-19T04:54:47 confirmed_idx=9 pb_circ_attempts=1.000000 pb_circ_successes=1.000000 pb_successful_circuits_closed=1.000000 pb_timeouts=1.000000
+Guard in=default rsa_id=DCEA2A6D8034E164A4FFDD8AFF997E2F6FB2ECF8 nickname=sabaroff sampled_on=2020-07-13T09:29:44 sampled_by=0.4.3.5 listed=1 confirmed_on=2020-07-19T06:28:44 confirmed_idx=7 pb_circ_attempts=2.000000 pb_circ_successes=2.000000 pb_successful_circuits_closed=2.000000 pb_timeouts=2.000000
+Guard in=default rsa_id=9EB3FD84065E5622A57EFEF14E41A01B5B99A022 nickname=whatconfig sampled_on=2020-07-07T09:44:35 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=72AEC98AD2DCCE15106F07F35D1B0D02A1530521 nickname=xoFelix sampled_on=2020-07-19T10:32:24 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=8BE79CE3261C027CE94F84D6CBE45F03BE9B8B59 nickname=cookie sampled_on=2020-07-24T07:17:44 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=5DB9AE27A44EB7B476CC04A66C67A71C97A001E6 nickname=Chenjesu sampled_on=2020-07-18T06:00:57 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=1C7215BC0123DDA23BDED0F9D2849D3AD80183CB nickname=blablabla sampled_on=2020-07-19T22:55:29 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=AC61D1722091F2FC4760776AF2C230D9DC679C03 nickname=CanterSecure05 sampled_on=2020-07-21T02:43:44 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=62ABC3D1B0D5DE48DE4B8AF5E76D5AA8F535CCDF nickname=tormozde sampled_on=2020-07-16T10:02:59 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=837D5EA513DF7FDDA36BE569C646151CDA4B9935 nickname=Brexit sampled_on=2020-07-23T07:11:58 sampled_by=0.4.3.5 listed=1
+Guard in=default rsa_id=66905A83A4858A4DD075AEA0514377A9F59E110D nickname=jkVR sampled_on=2020-07-27T06:21:52 sampled_by=0.4.3.5 listed=1
+LastWritten 2020-07-27 14:33:57
+MinutesSinceUserActivity 7
+TorVersion Tor 0.4.3.5
+TotalBuildTimes 38

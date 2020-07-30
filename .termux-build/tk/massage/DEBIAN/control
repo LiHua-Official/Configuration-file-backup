@@ -1,0 +1,8 @@
+Package: tk
+Architecture: aarch64
+Installed-Size: 6840
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 8.6.10
+Homepage: http://tcl.sourceforge.net/
+Depends: fontconfig, libx11, libxft, libxss, tcl
+Description: A windowing toolkit for use with tcl

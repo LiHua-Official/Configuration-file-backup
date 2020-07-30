@@ -1,0 +1,10 @@
+[options]
+legacy = true
+prefix = /data/data/com.termux/files/usr
+libdir = lib
+buildtype = minsize
+strip = True
+
+[properties]
+cross_file = ['/data/data/com.termux/files/home/.termux-build/xorgproto/tmp/meson-crossfile-aarch64.txt']
+

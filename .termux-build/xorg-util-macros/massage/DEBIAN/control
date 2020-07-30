@@ -1,0 +1,7 @@
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 148
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.19.2-8
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros

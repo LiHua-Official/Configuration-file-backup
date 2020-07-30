@@ -1,0 +1,10 @@
+Package: tcl
+Architecture: aarch64
+Installed-Size: 12268
+Maintainer: Termux (u0_a144)
+Version: 8.6.10-1
+Homepage: https://www.tcl.tk/
+Breaks: tcl-dev, tcl-static
+Depends: libsqlite, zlib
+Replaces: tcl-dev, tcl-static
+Description: Powerful but easy to learn dynamic programming language

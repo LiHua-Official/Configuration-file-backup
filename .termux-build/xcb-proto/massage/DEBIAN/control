@@ -1,0 +1,9 @@
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1024
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.14-3
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions

@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hexo'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v14.4.0
+4 verbose config Skipping project config: /data/data/com.termux/files/home/.npmrc. (matches userconfig)
+5 verbose npm-session 234ce7615f650e74
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:rollbackFailedOptional Completed in 12ms
+9 timing stage:runTopLevelLifecycles Completed in 1260ms
+10 verbose stack Error: Failed to parse json
+10 verbose stack Unexpected end of JSON input while parsing near '
+10 verbose stack '
+10 verbose stack     at parseError (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:470:11)
+10 verbose stack     at parseJson (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:105:26)
+10 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:52:5
+10 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:123:16
+10 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+11 verbose cwd /data/data/com.termux/files/home
+12 verbose Linux 3.18.31-perf-g502f558-01155-g2e5b524-dirty
+13 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "install" "hexo"
+14 verbose node v14.4.0
+15 verbose npm  v6.14.5
+16 error code EJSONPARSE
+17 error file /data/data/com.termux/files/home/package.json
+18 error JSON.parse Failed to parse json
+18 error JSON.parse Unexpected end of JSON input while parsing near '
+18 error JSON.parse '
+19 error JSON.parse Failed to parse package.json data.
+19 error JSON.parse package.json must be actual JSON, not just JavaScript.
+20 verbose exit [ 1, true ]

@@ -1,0 +1,7 @@
+Package: xtrans
+Architecture: all
+Installed-Size: 324
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.4.0-8
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library

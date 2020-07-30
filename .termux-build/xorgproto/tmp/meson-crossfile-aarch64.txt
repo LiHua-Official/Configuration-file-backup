@@ -1,0 +1,20 @@
+[binaries]
+ar = 'aarch64-linux-android-ar'
+c = 'aarch64-linux-android-clang'
+cpp = 'aarch64-linux-android-clang++'
+ld = 'aarch64-linux-android-ld'
+pkgconfig = 'pkg-config'
+strip = 'aarch64-linux-android-strip'
+
+[properties]
+needs_exe_wrapper = true
+c_args = ['-fstack-protector-strong', '-Oz', '-I/data/data/com.termux/files/usr/include']
+cpp_args = ['-fstack-protector-strong', '-Oz', '-I/data/data/com.termux/files/usr/include']
+c_link_args = ['-L/data/data/com.termux/files/usr/lib', '-Wl,--enable-new-dtags', '-Wl,--as-needed', '-Wl,-z,relro,-z,now']
+cpp_link_args = ['-L/data/data/com.termux/files/usr/lib', '-Wl,--enable-new-dtags', '-Wl,--as-needed', '-Wl,-z,relro,-z,now']
+
+[host_machine]
+cpu_family = 'arm'
+cpu = 'aarch64'
+endian = 'little'
+system = 'android'

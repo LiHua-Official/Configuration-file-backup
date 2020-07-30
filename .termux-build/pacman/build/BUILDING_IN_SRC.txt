@@ -1,0 +1,1 @@
+Building in src due to TERMUX_PKG_BUILD_IN_SRC being set to true

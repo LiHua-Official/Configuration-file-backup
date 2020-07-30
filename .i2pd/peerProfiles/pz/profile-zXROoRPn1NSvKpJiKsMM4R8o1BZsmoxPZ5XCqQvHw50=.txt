@@ -1,0 +1,8 @@
+lastupdatetime=2020-Jul-27 14:57:03
+[participation]
+agreed=8
+declined=0
+nonreplied=1
+[usage]
+taken=7
+rejected=0

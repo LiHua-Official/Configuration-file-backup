@@ -1,0 +1,8 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+codeload.github.com	0	0	1591688590	31536000
+coolapk-fan.github.io	0	0	1592489710	31556952
+sources.archlinux.org	0	1	1591434184	31536000
+github.com	0	1	1595946319	31536000
+libarchive.org	0	1	1591689193	63072000

@@ -1,0 +1,152 @@
+Build started at 2020-07-26T08:32:28.008560
+Main binary: /data/data/com.termux/files/usr/bin/python3
+Build Options: -Dlegacy=true -Dprefix=/data/data/com.termux/files/usr -Dlibdir=lib -Dbuildtype=minsize -Dstrip=True '--cross-file /data/data/com.termux/files/home/.termux-build/xorgproto/tmp/meson-crossfile-aarch64.txt'
+Python system: Linux
+The Meson build system
+Version: 0.52.1
+Source dir: /data/data/com.termux/files/home/.termux-build/xorgproto/src
+Build dir: /data/data/com.termux/files/home/.termux-build/xorgproto/build
+Build type: cross build
+Project name: xorgproto
+Project version: 2020.1
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/sanitycheckc.c -o /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: gcc (clang 10.0.1 "clang version 10.0.1 ")
+C linker for the build machine: GNU ld.bfd 2.35
+Sanity testing C compiler: aarch64-linux-android-clang
+Is cross compiler: True.
+Sanity check compiler command line: aarch64-linux-android-clang /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/sanitycheckc.c -o /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/sanitycheckc_cross.exe -fstack-protector-strong -Oz -I/data/data/com.termux/files/usr/include -pipe -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: aarch64-linux-android-clang (clang 10.0.1 "clang version 10.0.1 ")
+C linker for the host machine: GNU ld.bfd 2.35
+WARNING: Env var AR seems to point to the cross compiler.
+This is probably wrong, it should always point to the native compiler.
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: arm
+Host machine cpu: aarch64
+Target machine cpu family: arm
+Target machine cpu: aarch64
+Program sed found: YES (/data/data/com.termux/files/usr/bin/sed)
+Running compile:
+Working directory:  /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp5ms_tw8z
+Command line:  aarch64-linux-android-clang -I/data/data/com.termux/files/usr/include /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp5ms_tw8z/testfile.c -pipe -E -P -fstack-protector-strong -Oz -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/param.h")
+          #error "Header 'sys/param.h' could not be found"
+         #endif
+        #else
+         #include <sys/param.h>
+        #endif
+Compiler stdout:
+ 
+
+Compiler stderr:
+ 
+Has header "sys/param.h" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp2pbm1kpj
+Command line:  aarch64-linux-android-clang -I/data/data/com.termux/files/usr/include /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp2pbm1kpj/testfile.c -pipe -E -P -fstack-protector-strong -Oz -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/types.h")
+          #error "Header 'sys/types.h' could not be found"
+         #endif
+        #else
+         #include <sys/types.h>
+        #endif
+Compiler stdout:
+ 
+
+Compiler stderr:
+ 
+Has header "sys/types.h" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpkqvba5dx
+Command line:  aarch64-linux-android-clang -I/data/data/com.termux/files/usr/include /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpkqvba5dx/testfile.c -pipe -E -P -fstack-protector-strong -Oz -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/time.h")
+          #error "Header 'sys/time.h' could not be found"
+         #endif
+        #else
+         #include <sys/time.h>
+        #endif
+Compiler stdout:
+ 
+
+Compiler stderr:
+ 
+Has header "sys/time.h" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp__dso6xm
+Command line:  aarch64-linux-android-clang -I/data/data/com.termux/files/usr/include /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmp__dso6xm/testfile.c -pipe -E -P -fstack-protector-strong -Oz -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/select.h")
+          #error "Header 'sys/select.h' could not be found"
+         #endif
+        #else
+         #include <sys/select.h>
+        #endif
+Compiler stdout:
+ 
+
+Compiler stderr:
+ 
+Has header "sys/select.h" : YES 
+Running compile:
+Working directory:  /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpuqzqa7hg
+Command line:  aarch64-linux-android-clang -I/data/data/com.termux/files/usr/include /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpuqzqa7hg/testfile.c -o /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpuqzqa7hg/output.obj -pipe -c -fstack-protector-strong -Oz -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <sys/param.h>
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/select.h>
+
+        void bar() {
+            fd_set foo;
+            foo.fds_bits;
+
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ /data/data/com.termux/files/home/.termux-build/xorgproto/build/meson-private/tmpuqzqa7hg/testfile.c:8:17: warning: expression result unused [-Wunused-value]
+            foo.fds_bits;
+            ~~~ ^~~~~~~~
+1 warning generated.
+
+Checking whether type "fd_set" has member "fds_bits" : YES 
+Build targets in project: 1
+Found ninja-1.10.0 at /data/data/com.termux/files/usr/bin/ninja
+WARNING: Env var STRIP seems to point to the cross compiler.
+This is probably wrong, it should always point to the native compiler.
+WARNING: Env var STRIP seems to point to the cross compiler.
+This is probably wrong, it should always point to the native compiler.

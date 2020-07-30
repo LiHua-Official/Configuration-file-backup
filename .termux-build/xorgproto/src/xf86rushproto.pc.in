@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+ 
+Name: XF86RushProto
+Description: XF86Rush extension headers
+Version: 1.1.2
+Cflags: -I${includedir}
