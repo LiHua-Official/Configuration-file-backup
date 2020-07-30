@@ -1,0 +1,2 @@
+#deb https://dl.bintray.com/grimler/science-packages-24 science stable
+deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable

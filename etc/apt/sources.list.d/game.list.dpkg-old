@@ -1,0 +1,2 @@
+#deb https://dl.bintray.com/grimler/game-packages-24 games stable
+deb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable
